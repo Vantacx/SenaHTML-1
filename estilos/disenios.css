@@ -1,0 +1,60 @@
+/* ESTILO para eliminar el borde de la hoja HTML*/
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('/proyecto/imagenes/oba.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head, nav, main{
+    padding: 10px 20px;
+}
+.head, nav, main, footer{
+    background-color: transparent!important;
+    border: 1px solid black;
+}
+.head{
+    background-color: cadetblue;
+    color: purple;
+    height: 150px;
+    text-align: center;
+}
+.contenido{
+    background-color: transparent;
+    display: flex;
+    margin: 20px 0;
+}
+nav, main{
+    height: 300px;
+}
+nav{
+    background-color: red;
+    color: black;
+    margin-right: 20px;
+    flex: 30%;
+    background-image: url('/proyecto/imagenes/david.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    background-color: cadetblue;
+    color: purple;
+    flex: 65%;
+    background-image: url('/proyecto/imagenes/Vegeto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    background-color: red;
+    color: black;
+    text-align: center;
+}
+.title{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+.texto{
+    text-align: justify;
+}

@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: monospace;
+}
+/********************/
+/*    Colores xd    */
+.fondo_purpura{
+    background: rgb(203,166,255);
+    background: 
+    linear-gradient(90deg, 
+    rgba(203,166,255,1) 0%, 
+    rgba(223,199,254,1) 0%, 
+    rgba(97,0,255,1) 72%, 
+    rgba(68,0,194,1) 100%, 
+    rgba(83,2,212,1) 100%);
+}
+.texto_blanco{
+    color: white;
+}
+.fondo_blanco{
+    background-color: white;
+}
+.texto_morado{
+    color: rgba(97,0,255,1);
+}
+.header{
+    padding: 10px 10%;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: left;
+    margin: 10px 0;
+}
+.container{
+    padding: 20px 30px;
+    text-align: justify;
+}
+.container h1{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+.header ul{
+    list-style: none;
+    text-align: right;
+    margin: 0;
+}
+.header li{
+    display: inline-block;
+}
+.header ul li a{
+    text-decoration: none;
+}
+button{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(203,166,255);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+button a{
+    color: purple;
+    text-decoration: none;
+}
+.main img{
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

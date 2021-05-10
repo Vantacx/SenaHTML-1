@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #263238;
+    color: white;
+}
+/* espaciados y margenes */
+/************************/
+.p_1020{
+    padding: 10px 20px;
+}
+.p_30{
+    padding: 3em;
+}
+.mx_10{
+    margin: 0 10%;
+}
+.m_auto{
+    margin: auto;
+}
+.my_30{
+    margin: 3em 0;
+}
+/***********************/
+/*Textos*/
+
+.text_center{
+    text-align: center;
+}
+.tex_color{
+    color: white;
+}
+.text_roman{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.text-mayus{
+    text-transform: uppercase;
+}
+.text-vino{
+    color: rgb(134 61 76);
+}
+.title{
+    font-size: 4em;
+}
+/*********************/
+.borde{
+    border: 5px solid rgb(134 61 76);
+    border-left: 0;
+    border-right: 0;
+}
+.border_top{
+    border-top: 5px solid rgb(134 61 76);
+    margin: 0 40%;
+}
+/*********************/
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/proyecto/imagenes/imagen6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+.header ul{
+    list-style: none;
+    margin: 0;
+    padding-inline-start: 0%;
+    padding: 30px;
+}
+.header ul li{
+    display: inline-block;
+    padding: 0 1em;
+}
+.header .nombre p{
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header .nombre .subtitle{
+    font-size: 2em;
+}
+.header::before, footer::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(54 19 19 / 40%);
+    z-index: -1;
+}
+button{
+    border: 2px solid white;
+    background-color: transparent;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+}
+footer{
+    padding-top: 3em;
+    height: calc(100vh - 3em);
+    background-image: url('/proyecto/imagenes/imagen2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.fila{
+    width: 100%;
+    display: flex;
+}
+.columna{
+    flex: 50%;
+    position: relative;
+    z-index: 0;
+}
+.columna img{
+    width: 100%;
+    height: 400px;
+    
+}
+.filtro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(54 19 19 / 40%);
+    z-index: 1;
+}
+.medio{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    margin-top: 25%;
+    transform: translateY(-25%);
+}
+textarea, input{
+    border: 0;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(200 77 103);
+}
