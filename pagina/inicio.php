@@ -9,7 +9,7 @@
        <div class="fila"> <!--Primera fila-->
            <div class="columna">
                <div class="filtro"></div>
-               <img src="/proyecto/imagenes/imagen1.jpeg">
+               <img src="/proyecto/SenaHTML1/imagenes/imagen1.jpeg">
                <div class="medio">
                    <div class="border_top"></div>
                    <h1 class="text_roman text-mayus title text_center">Viaja seguro</h1>
@@ -19,7 +19,7 @@
             <!-- Columna uno-->
            <div class="columna">
                <div class="filtro"></div>
-               <img src="/proyecto/imagenes/imagen3.jpeg">
+               <img src="/proyecto/SenaHTML1/imagenes/imagen3.jpeg">
                <div class="medio">
                    <div class="border_top"></div>
                    <h1 class="text_roman text-mayus title text_center">xd</h1>
@@ -31,7 +31,7 @@
        <div class="fila"> <!--Segunda fila-->
             <div class="columna">
                <div class="filtro"></div>
-               <img src="/proyecto/imagenes/imagen4.jpeg">
+               <img src="/proyecto/SenaHTML1/imagenes/imagen4.jpeg">
                <div class="medio">
                    <div class="border_top"></div>
                    <h1 class="text_roman text-mayus title text_center"></h1>
@@ -40,7 +40,7 @@
             </div> <!-- Columna uno-->
            <div class="columna">
                <div class="filtro"></div>
-               <img src="/proyecto/imagenes/imagen5.jpeg">
+               <img src="/proyecto/SenaHTML1/imagenes/imagen5.jpeg">
                <div class="medio">
                    <div class="border_top"></div>
                    <h1 class="text_roman text-mayus title text_center"></h1>
